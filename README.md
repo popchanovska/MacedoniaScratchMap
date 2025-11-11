@@ -1,4 +1,4 @@
-# MacScratch — Homework (Design & Architecture of Software)
+# MacScratch — (Design & Architecture of Software)
 
 ## Summary
 MacScratch is a small client-side web application created for the *Design & Architecture of Software* course. The app demonstrates browsing cultural and historical places on a map, filtering and searching, user registration/login, and list management (planned, visited, favorites). The original project includes a short video demo that illustrates the functional and non-functional requirements.
