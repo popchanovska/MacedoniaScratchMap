@@ -1,7 +1,7 @@
-# MacScratch — (Design & Architecture of Software)
+# MacedoniaScratchMap — (Design & Architecture of Software)
 
 ## Summary
-MacScratch is a small client-side web application created for the *Design & Architecture of Software* course. The app demonstrates browsing cultural and historical places on a map, filtering and searching, user registration/login, and list management (planned, visited, favorites). The original project includes a short video demo that illustrates the functional and non-functional requirements.
+MacedoniaScratchMap is a small client-side web application created for the *Design & Architecture of Software* course. The app demonstrates browsing cultural and historical places on a map, filtering and searching, user registration/login, and list management (planned, visited, favorites). The original project includes a short video demo that illustrates the functional and non-functional requirements.
 
 ## Application flow
 The application begins with a navigation interface that allows users to explore different sections through the navigation bar and buttons on each page. Access to personal lists (planned, visited, favorites) and the feedback form requires user authentication — if the user is not logged in, they are redirected to the login page.
