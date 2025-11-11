@@ -3,12 +3,14 @@
 ## Summary
 MacScratch is a small client-side web application created for the *Design & Architecture of Software* course. The app demonstrates browsing cultural and historical places on a map, filtering and searching, user registration/login, and list management (planned, visited, favorites). The original project includes a short video demo that illustrates the functional and non-functional requirements.
 
-## Demo video (notes)
-Demo video with the following guide:
-- 0:00–1:00 — Navigation and page walkthrough (click nav buttons and page buttons). Access to lists and feedback requires login — unauthenticated users are redirected to the login form.
-- 1:00–2:00 — Map view and filtering inputs; searching by place name and city/municipality is supported. If a place is not found in the DB, a console message appears.
-- 2:00–3:00 — User registration and login flows; errors are shown for existing usernames, wrong passwords, or mismatched passwords.
-- 3:00–end — Adding places to lists; adding the same place multiple times does not duplicate it. Other system requirements are demonstrated.
+## Application flow
+The application begins with a navigation interface that allows users to explore different sections through the navigation bar and buttons on each page. Access to personal lists (planned, visited, favorites) and the feedback form requires user authentication — if the user is not logged in, they are redirected to the login page.
+
+From the map view, users can browse cultural and historical places and use filters to search by place name or city/municipality. If a searched place is not found in the database, a message is displayed in the console.
+
+Users can register new accounts and log in with existing ones. The system validates user input — errors appear for existing usernames, incorrect passwords, or mismatched passwords during registration.
+
+After logging in, users can add places to their personal lists. Each place can only be added once to prevent duplicates. Other system functionalities demonstrate proper handling of input validation, navigation, and user access control.
 
 ## Installation & running locally
 1. Clone and checkout the branch:
